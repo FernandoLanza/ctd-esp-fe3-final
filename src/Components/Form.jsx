@@ -7,6 +7,10 @@ const Form = () => {
   return (
     <div>
       <form>
+        <label>Name: <input type="text" minLength={6} placeholder="Name" required /></label><br />
+        <label>Email: <input type="email" placeholder="Email" required /></label><br />
+        <input type="submit" value="Submit" />
+
       </form>
     </div>
   );
